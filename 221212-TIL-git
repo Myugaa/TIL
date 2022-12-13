@@ -1,0 +1,63 @@
+Today I Learned 221212(YY/MM/DD)
+
+It was the first day to learn Git and Git Bash.
+The following are what I found interesting:
+
+
+1. The difference between CLI and GUI.
+
+1.1 CLI (Command Line Interface):
+- I find this interface very cool and interesting. 
+- Although it looks difficult compared to GUI, I believe it is how people worked using computer in 1970's and 1980's.
+- In addition, it's fasinating to see that people didn't throw this interface away for being 'outdated' when they invented GUI. I guess they respected CLI.
+- Perhaps, CLI was too good and it never failed to work when you use it correctly, so they couldn't throw it ouut.
+- Imagining about the history of CLI makes Git Bash naturally interesting to me.
+
+
+1.2 GUI (Graphic User Interface):
+- I am very comfortable with this type. 
+- Yet, now that I know the charm of CLI, I feel I need to study more of CLI to get benefits of the two different approaches.
+
+
+2. The (abbreviated) terms
+
+The functional words used in Git Bash are usually shortened for faster and easier (typos are never welcomed) tasks. Such terms are:
+
+In shell:
+- pwd (print working directory: show me where I'm looking at)
+- ls (list segments: show what's inside where I'm looking at)
+- cd (change directory: change where I'm looking at)
+	* cd .. (change directory to upper directory)
+
+- mkdir (make directory: make a new collecting spot)
+- touch (make a file)
+- mv (move a certain file to elsewhere)
+- clone (make a duplicate)
+- cp (copy a file)
+- rm (remove something, but it will still be somewhere)
+- delete (not sure if there's an abbreviation. to get rid of something FOR GOOD.)
+
+- . (current directory)
+- .. (upper directory)
+- ~ (the uppermost directory you can access without entering a password)
+- $ (git bash is ready for use)
+
+- A.* (all types of files named A)
+- .** (all types of files regardless of name. This would be convinient to select all files within a directory)
+
+- -r (recursive)
+- rm -r (keep removing everything inside = remove all)
+- rn (rename)
+- clear (clear all lines)
+- cat (catnate : show all words inside a file)
+
+Inside vim:
+- :wq (write[save] and quit)
+- :write (wrive[save]. How come is this in full word?)
+- :q (quit)
+
+
+3. Directory, in fact, does not *exist* exist
+- I was shocked to hear that it is only a virtual location, so there is no actual form of it. 
+- So this is why you can't just erase a directory (this will make you lost)
+- You can only erase a directory once you've got rid of all files in it.
