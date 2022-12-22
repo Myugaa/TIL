@@ -1,69 +1,65 @@
-Today I Learned 221212(YY/MM/DD)
+<p> It was the first day to learn Git and Git Bash. <br> The followings are what I found interesting: </p>
 
-It was the first day to learn Git and Git Bash.
-The following are what I found interesting:
+> **Summary:**
+> 1. The difference between CLI and GUI.
+> 2. The (abbreviated) terms (for Git Bash)
+> 3. Directories, in fact, do not *exist* exist
+  
+#### ** Please note: ** 
+<p> Although I've written this document with caution, some of the contents may be wrong. <br> Please do double check, and if you find any info misleading, please let me know via comments section below. I will do my best to fix ASAP. Thank you! </p>
 
-Summary:
-1. The difference between CLI and GUI.
-2. The (abbreviated) terms (shell and vim)
-3. Directory, in fact, does not *exist* exist
 
----------------------------------------
+### 1. The difference between CLI and GUI.
 
-1. The difference between CLI and GUI.
-
-1.1 CLI (Command Line Interface):
+#### 1.1 CLI (Command Line Interface):
 - I find this interface very cool and interesting. 
 - Although it looks difficult compared to GUI, I believe it is how people worked using computer in 1970's and 1980's.
 - In addition, it's fasinating to see that people didn't throw this interface away for being 'outdated' when they invented GUI. I guess they respected CLI.
-- Perhaps, CLI was too good and it never failed to work when you use it correctly, so they couldn't throw it ouut.
+- Perhaps, CLI was too good and it never failed to work when you use it correctly, so they couldn't throw it out.
 - Imagining about the history of CLI makes Git Bash naturally interesting to me.
 
 
-1.2 GUI (Graphic User Interface):
+#### 1.2 GUI (Graphic User Interface):
 - I am very comfortable with this type. 
 - Yet, now that I know the charm of CLI, I feel I need to study more of CLI to get benefits of the two different approaches.
 
-
-2. The (abbreviated) terms
-
+### 2. The (abbreviated) terms
+<p>
 The functional words used in Git Bash are usually shortened for faster and easier (typos are never welcomed) tasks. Such terms are:
 
-In shell:
-- pwd (print working directory: show me where I'm looking at)
-- ls (list segments: show what's inside where I'm looking at)
-- cd (change directory: change where I'm looking at)
-	* cd .. (change directory to upper directory)
+#### Git Bash:
+<ol>
+  <li>pwd (print working directory: show me where I'm looking at)</li>
+  <li>ls (list segments: show what's inside where I'm looking at)</li>
+  <li>cd (change directory: change where I'm looking at)</li>
+  cd .. (change directory to upper directory)
+  <li>mkdir (make directory: make a new collecting spot)</li>
+  <li>touch (make a file)</li>
+  <li>mv (move a certain file to elsewhere)</li>
+  <li>clone (make a duplicate)</li>
+  <li>cp (copy a file)</li>
+  <li>rm (remove something, but it will still be somewhere)</li>
+  <li>delete (not sure if there's an abbreviation. to get rid of something FOR GOOD.)</li>
+  <li>. (current directory)</li>
+  <li>.. (upper directory)</li>
+  <li>~ (the uppermost directory you can access without entering a password)</li>
+  <li>$ (Git Bash is ready for use)</li>
+  <li>A.* (all types of files named A)</li>
+  <li>.** (all types of files regardless of name. This would be convinient to select all files within a directory)</li>
+  <li> -r (recursive)</li>
+  <li>rm -r (keep removing everything inside = remove all)</li>
+  <li>rn (rename)</li>
+  <li>clear (clear all lines)</li>
+  <li>cat (catenate : show all words inside a file)</li>
+</ol>
 
-- mkdir (make directory: make a new collecting spot)
-- touch (make a file)
-- mv (move a certain file to elsewhere)
-- clone (make a duplicate)
-- cp (copy a file)
-- rm (remove something, but it will still be somewhere)
-- delete (not sure if there's an abbreviation. to get rid of something FOR GOOD.)
-
-- . (current directory)
-- .. (upper directory)
-- ~ (the uppermost directory you can access without entering a password)
-- $ (git bash is ready for use)
-
-- A.* (all types of files named A)
-- .** (all types of files regardless of name. This would be convinient to select all files within a directory)
-
-- -r (recursive)
-- rm -r (keep removing everything inside = remove all)
-- rn (rename)
-- clear (clear all lines)
-- cat (catnate : show all words inside a file)
-
-Inside vim:
+#### Inside vim:
 - :wq (write[save] and quit)
 - :write (wrive[save]. How come is this in full word?)
-- :q (quit)
+- :q (quit)</p>
 
 
-3. Directory, in fact, does not *exist* exist
-- I was shocked to hear that it is only a virtual location, so there is no actual form of it. 
-- So this is why you can't just erase a directory (this will make you lost)
-- You can only erase a directory once you've got rid of all files in it.
+### 3. Directory, in fact, does not *exist* exist
+- I was shocked to hear that it is only a virtual location, so there is no actual form of it. <br>
+- So this is why you can't just erase a directory in Git Bash. (This will make you lose track of some documents...)<br>
+- You can only erase a directory after you get rid of all files in it.
